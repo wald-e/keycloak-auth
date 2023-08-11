@@ -1,0 +1,9 @@
+{
+    "authenticators": [
+        {
+            "name": "check_group",
+            "fileName": "script-authenticator.js",
+            "description": "deny login if user has no group membership"
+        }
+    ]
+}
