@@ -4,6 +4,11 @@
             "name": "check_group",
             "fileName": "check_group.js",
             "description": "Deny login if user has no group membership"
+        },
+	{
+            "name": "check_otp",
+            "fileName": "check_otp.js",
+            "description": "Force the user to setup an OTP, even the login request comes from a trusted source IP"
         }
     ]
 }
